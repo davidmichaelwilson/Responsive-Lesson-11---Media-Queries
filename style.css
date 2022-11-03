@@ -1,0 +1,34 @@
+.card {
+  border: solid gray 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.cardGrid {
+  display: grid;
+}
+
+
+/* Edit below this line: */
+
+@media (min-width: 600px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .cardGrid {
+    grid-template-columns: repeat(4, 1fr)
+  }
+
+}
